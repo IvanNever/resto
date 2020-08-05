@@ -6,13 +6,13 @@ const WithRestoService = () => (Wrapped) => {
         return (
             <RestoServiceContext.Consumer>
                 {
-                    (RestoService ) => {
-                        return <Wrapped {...props} RestoService={RestoService}/>
+                    (RestoService) => {
+                        return <Wrapped {...props} RestoService = {RestoService}/>
                     }
                 }
             </RestoServiceContext.Consumer>
         )
-    };
+    }
 };
 
 export default WithRestoService;
