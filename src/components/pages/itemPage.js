@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import WithRestoService from '../hoc';
+import WithRestoService from '../hoc/';
 import Spinner from '../spinner';
 import {menuLoaded, menuRequested, menuError} from '../../actions';
 
